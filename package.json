@@ -1,0 +1,22 @@
+{
+  "name": "nextpub",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20.8.9"
+  },
+  "peerDependencies": {
+    "next": "^13.5.6"
+  }
+}
